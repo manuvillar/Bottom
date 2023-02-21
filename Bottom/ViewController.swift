@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Bottom
-//
-//  Created by Manuel J. Villar on 22/2/22.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -12,7 +5,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var BotonMensaje: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func MensajeAction(_ sender: Any) {

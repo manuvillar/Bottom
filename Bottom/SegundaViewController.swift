@@ -1,10 +1,3 @@
-//
-//  SegundaViewController.swift
-//  Bottom
-//
-//  Created by Manuel J. Villar on 22/2/22.
-//
-
 import UIKit
 
 class SegundaViewController: UIViewController {
@@ -14,8 +7,6 @@ class SegundaViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func AddAction (_ sender: Any){

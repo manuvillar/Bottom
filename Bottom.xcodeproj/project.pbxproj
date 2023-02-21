@@ -14,6 +14,7 @@
 		327B1A4927C4FF5B00579AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327B1A4827C4FF5B00579AA4 /* Assets.xcassets */; };
 		327B1A4C27C4FF5B00579AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327B1A4A27C4FF5B00579AA4 /* LaunchScreen.storyboard */; };
 		327B1A5427C50BEB00579AA4 /* SegundaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B1A5327C50BEB00579AA4 /* SegundaViewController.swift */; };
+		328E20B829A4D0B500AB1032 /* TerceraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328E20B729A4D0B500AB1032 /* TerceraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		327B1A4B27C4FF5B00579AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		327B1A4D27C4FF5B00579AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		327B1A5327C50BEB00579AA4 /* SegundaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaViewController.swift; sourceTree = "<group>"; };
+		328E20B729A4D0B500AB1032 /* TerceraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerceraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				327B1A4127C4FF5900579AA4 /* SceneDelegate.swift */,
 				327B1A4327C4FF5900579AA4 /* ViewController.swift */,
 				327B1A5327C50BEB00579AA4 /* SegundaViewController.swift */,
+				328E20B729A4D0B500AB1032 /* TerceraViewController.swift */,
 				327B1A4527C4FF5900579AA4 /* Main.storyboard */,
 				327B1A4827C4FF5B00579AA4 /* Assets.xcassets */,
 				327B1A4A27C4FF5B00579AA4 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				328E20B829A4D0B500AB1032 /* TerceraViewController.swift in Sources */,
 				327B1A5427C50BEB00579AA4 /* SegundaViewController.swift in Sources */,
 				327B1A4427C4FF5900579AA4 /* ViewController.swift in Sources */,
 				327B1A4027C4FF5900579AA4 /* AppDelegate.swift in Sources */,

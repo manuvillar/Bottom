@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fiz-Ki-bF0">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fiz-Ki-bF0">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -12,8 +13,8 @@
         <scene sceneID="vI6-w9-Yp5">
             <objects>
                 <tabBarController id="Fiz-Ki-bF0" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ggW-5N-rRN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="ggW-5N-rRN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="83"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -27,13 +28,13 @@
             </objects>
             <point key="canvasLocation" x="213" y="-437"/>
         </scene>
-        <!--Item-->
+        <!--Primera-->
         <scene sceneID="07p-BR-ePP">
             <objects>
                 <navigationController id="bve-3x-PHX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="GYy-8t-aBz"/>
+                    <tabBarItem key="tabBarItem" title="Primera" image="highlighter" catalog="system" id="GYy-8t-aBz"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Tqt-Ps-4cq">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <navigationBarAppearance key="scrollEdgeAppearance"/>
                     </navigationBar>
@@ -48,28 +49,73 @@
             </objects>
             <point key="canvasLocation" x="-580" y="269"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="9M9-uc-9yr">
+            <objects>
+                <viewController id="Ko1-Wq-WZL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rkN-Ka-SEo">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6v-Xn-HAU">
+                                <rect key="frame" x="114.33333333333333" y="410.33333333333331" width="164.66666666666669" height="31.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6vS-ut-Os0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="a6v-Xn-HAU" firstAttribute="centerY" secondItem="rkN-Ka-SEo" secondAttribute="centerY" id="AuF-K4-KSg"/>
+                            <constraint firstItem="a6v-Xn-HAU" firstAttribute="centerX" secondItem="rkN-Ka-SEo" secondAttribute="centerX" id="IyU-93-PNs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="0Ac-Ol-efg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s7f-h6-GbS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-582.44274809160299" y="1718.3098591549297"/>
+        </scene>
         <!--Primera-->
         <scene sceneID="Iro-Fd-vs6">
             <objects>
                 <viewController id="qT7-fU-cXm" customClass="ViewController" customModule="Bottom" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZEa-8b-wON">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6O3-vi-qSF">
-                                <rect key="frame" x="168" y="432.5" width="78" height="31"/>
+                                <rect key="frame" x="152" y="181" width="89" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6O3-vi-qSF" secondAttribute="height" multiplier="89:35" id="pdi-Hg-drS"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Mensaje"/>
                                 <connections>
                                     <action selector="MensajeAction:" destination="qT7-fU-cXm" eventType="touchUpInside" id="SbV-vg-HV9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yw1-M0-Npq">
+                                <rect key="frame" x="144.66666666666666" y="286" width="103.66666666666666" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Yw1-M0-Npq" secondAttribute="height" multiplier="104:35" id="bsW-jv-0Fg"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="Ko1-Wq-WZL" kind="show" id="5AL-ge-BLg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0OU-Fi-ndm"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
-                            <constraint firstItem="6O3-vi-qSF" firstAttribute="centerY" secondItem="ZEa-8b-wON" secondAttribute="centerY" id="Hex-d3-MAt"/>
-                            <constraint firstItem="6O3-vi-qSF" firstAttribute="centerX" secondItem="ZEa-8b-wON" secondAttribute="centerX" id="qxF-5n-n4G"/>
+                            <constraint firstItem="Yw1-M0-Npq" firstAttribute="centerX" secondItem="ZEa-8b-wON" secondAttribute="centerX" id="L4m-Un-yYV"/>
+                            <constraint firstItem="Yw1-M0-Npq" firstAttribute="leading" secondItem="0OU-Fi-ndm" secondAttribute="leading" constant="144.66666666666666" id="Uap-se-WHr"/>
+                            <constraint firstItem="Yw1-M0-Npq" firstAttribute="top" secondItem="6O3-vi-qSF" secondAttribute="bottom" constant="70" id="agC-j2-PYP"/>
+                            <constraint firstItem="6O3-vi-qSF" firstAttribute="centerX" secondItem="ZEa-8b-wON" secondAttribute="centerX" id="fZ7-F8-hg6"/>
+                            <constraint firstItem="0OU-Fi-ndm" firstAttribute="bottom" secondItem="Yw1-M0-Npq" secondAttribute="bottom" constant="448" id="o2s-1R-vle"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Primera" id="Ysu-05-uT1"/>
@@ -79,15 +125,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oyP-iV-CpB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-581" y="1002"/>
+            <point key="canvasLocation" x="-582.44274809160299" y="1001.4084507042254"/>
         </scene>
-        <!--Item-->
+        <!--Segunda-->
         <scene sceneID="WbF-md-KAf">
             <objects>
                 <navigationController id="5uI-FL-wMb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="IlA-iz-DNj"/>
+                    <tabBarItem key="tabBarItem" title="Segunda" image="arrow.counterclockwise" catalog="system" id="IlA-iz-DNj"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="k1N-C9-PYA">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <navigationBarAppearance key="scrollEdgeAppearance"/>
                     </navigationBar>
@@ -99,13 +145,13 @@
             </objects>
             <point key="canvasLocation" x="212" y="269"/>
         </scene>
-        <!--Item-->
+        <!--Tercera-->
         <scene sceneID="2W4-DT-jGh">
             <objects>
                 <navigationController id="WdO-0u-wgH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="3gv-dX-qay"/>
+                    <tabBarItem key="tabBarItem" title="Tercera" image="tray.fill" catalog="system" id="3gv-dX-qay"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="BeH-8d-eh7">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <navigationBarAppearance key="scrollEdgeAppearance"/>
                     </navigationBar>
@@ -122,43 +168,54 @@
             <objects>
                 <viewController id="je5-qY-oTY" customClass="SegundaViewController" customModule="Bottom" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZwG-fD-TuB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contador: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTa-jR-fjr">
-                                <rect key="frame" x="143" y="118" width="128" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDM-jn-ZvO">
-                                <rect key="frame" x="174" y="194" width="66" height="31"/>
-                                <color key="tintColor" systemColor="systemGreenColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Añade"/>
+                                <rect key="frame" x="159.33333333333334" y="154" width="74.333333333333343" height="34.666666666666657"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gDM-jn-ZvO" secondAttribute="height" multiplier="73:34" id="aGE-QY-HjK"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Añade">
+                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="AddAction:" destination="je5-qY-oTY" eventType="touchUpInside" id="Vzp-n1-8Hr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AgH-hc-mwZ">
-                                <rect key="frame" x="176.5" y="263" width="61" height="31"/>
-                                <color key="tintColor" systemColor="systemGreenColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Resta"/>
+                                <rect key="frame" x="163" y="230" width="67" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="AgH-hc-mwZ" secondAttribute="height" multiplier="67:35" id="al4-hk-0fX"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Resta">
+                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="RestaAction:" destination="je5-qY-oTY" eventType="touchUpInside" id="9b0-sx-Ypx"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contador: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTa-jR-fjr">
+                                <rect key="frame" x="132.66666666666666" y="304" width="127.99999999999997" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="hTa-jR-fjr" secondAttribute="height" multiplier="64:15" id="Q3m-Hc-HrV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Yac-vY-Ifg"/>
                         <color key="backgroundColor" systemColor="linkColor"/>
                         <constraints>
-                            <constraint firstItem="gDM-jn-ZvO" firstAttribute="centerX" secondItem="ZwG-fD-TuB" secondAttribute="centerX" id="Hkp-Z3-tPA"/>
-                            <constraint firstItem="hTa-jR-fjr" firstAttribute="centerX" secondItem="ZwG-fD-TuB" secondAttribute="centerX" id="O5P-SI-KtR"/>
-                            <constraint firstItem="AgH-hc-mwZ" firstAttribute="centerX" secondItem="ZwG-fD-TuB" secondAttribute="centerX" id="SBA-wF-VD2"/>
-                            <constraint firstItem="gDM-jn-ZvO" firstAttribute="top" secondItem="hTa-jR-fjr" secondAttribute="bottom" constant="46" id="SeC-v2-a4N"/>
-                            <constraint firstItem="hTa-jR-fjr" firstAttribute="top" secondItem="Yac-vY-Ifg" secondAttribute="top" constant="30" id="URE-Gs-7Uu"/>
-                            <constraint firstItem="AgH-hc-mwZ" firstAttribute="top" secondItem="gDM-jn-ZvO" secondAttribute="bottom" constant="38" id="cTN-Sh-tbC"/>
+                            <constraint firstItem="AgH-hc-mwZ" firstAttribute="centerX" secondItem="ZwG-fD-TuB" secondAttribute="centerX" id="0d7-Iq-TVc"/>
+                            <constraint firstItem="gDM-jn-ZvO" firstAttribute="centerX" secondItem="ZwG-fD-TuB" secondAttribute="centerX" id="4KL-i8-I6F"/>
+                            <constraint firstItem="hTa-jR-fjr" firstAttribute="centerX" secondItem="ZwG-fD-TuB" secondAttribute="centerX" id="6rS-uu-HTs"/>
+                            <constraint firstItem="hTa-jR-fjr" firstAttribute="top" secondItem="AgH-hc-mwZ" secondAttribute="bottom" constant="39" id="AIm-2K-Lhm"/>
+                            <constraint firstItem="AgH-hc-mwZ" firstAttribute="top" secondItem="ZwG-fD-TuB" secondAttribute="top" constant="230" id="rsh-53-QVE"/>
+                            <constraint firstItem="AgH-hc-mwZ" firstAttribute="top" secondItem="gDM-jn-ZvO" secondAttribute="bottom" constant="41.5" id="xgm-kE-tjt"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Segunda" id="4rA-Cf-RcZ"/>
@@ -173,12 +230,26 @@
         <!--Tercera-->
         <scene sceneID="3jf-2y-tL0">
             <objects>
-                <viewController id="kqQ-hy-7ut" sceneMemberID="viewController">
+                <viewController id="kqQ-hy-7ut" customClass="TerceraViewController" customModule="Bottom" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IXy-Hf-T7U">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMq-bo-sbM">
+                                <rect key="frame" x="160.33333333333334" y="408.66666666666669" width="72.333333333333343" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Nueva"/>
+                                <connections>
+                                    <action selector="NuevoViweController:" destination="kqQ-hy-7ut" eventType="touchUpInside" id="7AQ-8I-z4n"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="N6c-sO-bQ1"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <constraints>
+                            <constraint firstItem="sMq-bo-sbM" firstAttribute="centerX" secondItem="IXy-Hf-T7U" secondAttribute="centerX" id="How-Am-XPk"/>
+                            <constraint firstItem="sMq-bo-sbM" firstAttribute="centerY" secondItem="IXy-Hf-T7U" secondAttribute="centerY" id="cUT-iE-hGU"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Tercera" id="PjG-vr-l4P"/>
                 </viewController>
@@ -188,11 +259,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="arrow.counterclockwise" catalog="system" width="113" height="128"/>
+        <image name="highlighter" catalog="system" width="128" height="120"/>
+        <image name="tray.fill" catalog="system" width="128" height="88"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
